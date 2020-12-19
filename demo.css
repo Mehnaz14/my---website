@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:53px;
+}
+h2,h3{
+    margin:20px;
+    font-family: 'Kaushan Script', cursive;
+}
+    
+p{
+    margin:20px;
+    font-size:18px;
+}
+.top{
+    background-color:#e4f9f5
+}
+.cloud{
+    padding:20px;
+}
+#cloud-1{
+    position:relative;
+    left:200px;
+
+}
+#cloud-2{
+    position:relative;
+    right:200px;
+}
+.profile-pic{
+    width:200px;
+    height:200px;
+    margin:20px;
+    border-radius: 110px;
+}
+.comp{
+    width:300px;
+    height:300px;
+    margin:20px;
+    border-radius: 155px;
+}
+.skill-row{
+    display:flex;
+    align-items:center;
+    width:70%;
+    margin:auto;
+}
+.btn{padding: 10px;
+    background-color: #0d7377;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    cursor:pointer;
+}
+.bpn:hover{
+    background-color:chartreuse;
+}
